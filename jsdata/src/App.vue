@@ -3,7 +3,8 @@
     <router-link to="/">Home</router-link> |
     <router-link to="/jobs">Jobs</router-link> | 
     <router-link to="/computed">Computed</router-link> | 
-    <router-link to="/reactive">Refs and Reactive</router-link>
+    <router-link to="/reactive">Refs and Reactive</router-link> |
+    <router-link to="/props">Props</router-link>
   </nav>
   <router-view/>
 </template>

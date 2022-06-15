@@ -3,6 +3,7 @@ import Home from '../views/Home.vue'
 import Jobs from '../views/Jobs.vue'
 import Reactive from '../views/Refs and Reactive.vue'
 import Computed from '../views/computed.vue'
+import Props from '../views/props.vue'
 
 const routes = [
   {
@@ -24,6 +25,11 @@ const routes = [
     path: '/computed',
     name: 'computed',
     component: Computed
+  },
+  {
+    path: '/props',
+    name: 'props',
+    component: Props
   }
 ]
 
